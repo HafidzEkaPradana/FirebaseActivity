@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private void getData(){
         progressDialog.show();
-        db.collection("users")
+        db.collection("cars")
                 .get()
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
                     @SuppressLint("NotifyDataChanged")
